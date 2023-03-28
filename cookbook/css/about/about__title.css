@@ -1,0 +1,17 @@
+.about__title {
+  font-family: pacifico, cursive;
+  color: #41424C;
+  /* font-size: 35px; */
+}
+
+@media  screen and (min-width: 0) {
+  .about__title {
+    font-size: 2rem;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .about__title {
+    font-size: 3.1875rem;
+  }
+}
