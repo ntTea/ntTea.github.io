@@ -1,0 +1,7 @@
+.person__name {
+    color: #7C6e7f;
+    display: inline-block;
+    font-family: pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}

@@ -1,0 +1,27 @@
+.person__image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  height: 300px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.person__image-ana {
+  background-image: url("../../img/people/ana.jpg");
+}
+
+.person__image-chrissy {
+  background-image: url("../../img/people/chrissy.jpg");
+}
+
+.person__image-natee {
+  background-image: url("../../img/people/natee.jpg");
+}
+
+@media screen and (min-width: 768px) {
+  .person__image {
+    width: 250px;
+  }
+}
