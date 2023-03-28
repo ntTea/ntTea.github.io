@@ -1,0 +1,32 @@
+.recipe {
+    margin-left: 1.5rem;
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    /* margin-right: 3rem;
+    width: calc(23% - 1rem); */
+}
+
+@media  screen and (min-width: 0) {
+  .recipe {
+    margin-right: 2.3rem;
+    width: 100%;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .recipe {
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+    width: calc(40% - 2.5rem);
+  }
+}
+
+@media  screen and (min-width: 992px) {
+  .recipe {
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    width: calc(25% - 5rem);
+  }
+}
