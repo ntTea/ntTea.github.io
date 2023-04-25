@@ -1,0 +1,294 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.mainHeader {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.mainHeader-title {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.mainHeader-title a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+.mainHeader-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #9799A6;
+}
+
+.mainContent {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.mainContent-course-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	/* margin: 1%; */
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.mainContent-course-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mainContent-course-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.mainContent-course-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.mainContent-course-link:nth-child(even) a:before {
+	background: url(../img/background1.svg) no-repeat;	
+}
+
+.mainContent-course-link:nth-child(odd) a:before {
+	background: url(../img/background2.svg) no-repeat;
+}
+
+
+.footer {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.footer .subtitle {
+	color: #FFF;
+}
+
+.footer-navMap-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.footer-navMap-link {
+	font-size: .9em;
+}
+
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.navmap-list-title + .footer-navMap-link {
+	margin-top: 0;
+}
+
+.navmap-list-title-bancoDeDados { color: #fdd037; border-left: 4px solid #fdd037; }
+.navmap-list-title-framework { color: #f54768; border-left: 4px solid #f54768; }
+.navmap-list-title-frontend { color: #98dad9; border-left: 4px solid #98dad9; }
+.navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
+
+.footer-sponsor {
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+/* .footer-sponsor-list-link {
+	width: 50px;
+	height: 50px;
+} */
+
+.footer-form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.footer-form label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.footer-form-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.footer-form-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.footer-form-submit,
+.footer-form-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.videoAbout {
+	background-color: #5E9EDC;
+	padding: 25px 0;
+
+}
+
+.videoAbout-video {
+	max-width: 100%;
+}
+
+.videoAbout .container {
+	color: #FFF;
+}
+
+.videoAbout-benefits-title {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.videoAbout-benefits {
+	font-size: 1.3em;
+	line-height: 2;
+}
+
+.videoAbout-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+}
+
+.footer-form-legend {
+	margin-bottom: 10px;
+}
+
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitle {
+		text-align: left;
+	}
+
+	.mainHeader-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.mainHeader-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}
+
+	.mainHeader-title {
+		margin: 0;
+	}
+
+	.mainHeader-nav {
+		width: auto;
+	}
+
+	.mainHeader-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	.footer-form {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.mainContent-course-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.mainContent-course-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+
+}
+
+@media(min-width: 1000px) {
+	.mainContent-course-link {
+		margin: 1.333%;
+	}
+
+	.mainContent-course-link:nth-child(3n) {
+		margin-right: 1.33%;
+	}
+
+	.mainContent-course-link:nth-child(3n+1) {
+		margin-left: 1.333%;
+	}
+
+	.mainContent-course-link:nth-child(4n) {
+		margin-right: 0;
+	}
+
+	.mainContent-course-link:nth-child(4n+1) {
+		margin-left: 0;
+	}
+
+	.videoAbout-benefits {
+		margin-left: 1.5em;
+	}
+
+}
+
+
