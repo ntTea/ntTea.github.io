@@ -1,0 +1,307 @@
+/* ----- Main CSS ----- */
+
+body {
+    background-color: #dddddd;
+    font-family: tilt neon;
+    font-size: 15px;
+}
+
+header {
+    background: url(/imgs/texture.jpg);
+    padding: 10px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #585353;
+    text-decoration: underline;
+}
+
+.contact-us-page, .home-page, .service-page {
+    pointer-events: none;
+    color: #585353;
+}
+
+/* ----- Index CSS ----- */
+
+.banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/imgs/banner.jpg);
+    min-height: 700px;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    padding: 3em;
+    width: 80%;
+    margin: 0 100px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.main p {
+    margin: 0 0 1em;
+}
+
+.main strong {
+    font-weight: bold;
+}
+
+.main em {
+    font-style: italic;
+}
+
+.about {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.benefits {
+    padding: 3em 0;
+    margin: auto;
+}
+
+.content-benefits {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.list-benefits {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mutual {
+    line-height: 1.5;
+}
+
+.mutual:first-child {
+    font-weight: bold;
+}
+
+li#mutual::before {
+    content: "\2713";
+}
+
+.benefits-img {
+    width: 30%;
+    opacity: 1;
+    transition: 400px;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.benefits-img:hover {
+    opacity: 0.8;
+}
+
+/* ----- Map CSS ----- */
+
+.map {
+    padding: 3em 0;
+    /* background: linear-gradient(rgb(226, 221, 221), rgb(155, 147, 147)); */
+}
+
+.map p {
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.map-content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.youtube-link {
+    width: 560px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background: url(backy10p.jpg);
+    padding: 20px 0;
+    color: #B76E79;
+    background: url(/imgs/footer-texture.jpg);
+}
+
+.img-footer {
+    height: 50px;
+    width: 50px;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 30px 20px 0 0;
+
+}
+
+/* ----- Services CSS ----- */
+.services {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.services li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.service-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 10px;
+}
+
+.price {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.services li:hover {
+    border-color: #b4abab;
+    border-style: solid;
+    color: #b4abab;
+}
+
+.services li:active {
+    border-color: rgb(161, 96, 16);
+    color: rgb(161, 96, 16);
+}
+
+/* ----- Contact Us CSS ----- */
+
+form {
+    width: 940px;
+    margin: 40px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.default-input {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 10px;
+    width: 50%;
+    resize: none;
+}
+
+form select {
+    width: 100px;
+    font-size: 15px;
+}
+
+.contact-type label {
+    font-size: 15px;
+    margin: 0 0 5px;
+}
+
+.contact-time {
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.send {
+    width: 40%;
+    padding: 15px 0;
+    background: #aaa1a2;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.send:hover {
+    background-color: #585353;
+    transform: scale(1.1);
+}
+
+.table {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 300px;
+    margin: 10px 0px;
+}
+
+thead {
+    background-color: #3d3c3c;
+    color: white;
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
